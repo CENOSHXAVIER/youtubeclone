@@ -1,0 +1,17 @@
+.sale{
+    font-family:Arial ;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom:5px ;
+}
+.end{
+font-style: italic;
+font-size: 20px;
+font-weight: bold;
+color: red;
+margin-top:5px ;
+}
+
+.learn{
+color: blue ;
+}
