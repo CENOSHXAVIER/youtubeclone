@@ -1,4 +1,5 @@
 .sidebar{
+   
     position: fixed;
     left: 0;
     bottom: 0;
@@ -8,4 +9,26 @@
     border-right-width: 1px;
     border-right-style: solid;
     border-right-color: rgb(228, 228, 228);
+    z-index: 200;
+}
+
+.sidebar img{
+height: 24px;
+margin-bottom: 4px;
+ }
+
+.sidebar-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 76px;
+}
+.sidebar-icon:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.sidebar-icon div{
+font-family: roboto,arial;
+font-size: 10px;
 }

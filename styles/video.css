@@ -11,7 +11,27 @@
 }
 
 .video-title {
- margin-top: 0;
+    margin-top: 0;
+  }
+
+  .thumbnail-row{
+ position: relative;
+  }
+
+
+  .time-stamp{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 8px;
+    right: 5px;
+    font-family: roboto,arial;
+    font-size: 12.5px;
+    font-weight: 500;
+    padding: 3px;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
   }
 
 .channel-picture{
